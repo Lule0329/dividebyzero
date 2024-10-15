@@ -37,15 +37,7 @@ namespace dividebyzero
             {
                 MessageBox.Show("dela inte med noll!");
             }
-
-
-/*            if (textBox1.Text is string || textBox2.Text is string)
-            {
-                throw new Exception("Du måste skriva ett tal!");
-            }
-            
-            Divide(double.Parse(textBox1.Text), double.Parse(textBox2.Text));
-*/        }
+        }
 
         private double Divide(double täljare, double nämnare)
         {
